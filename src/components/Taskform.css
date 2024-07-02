@@ -59,3 +59,20 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+@media screen and (max-width : 1150px) {
+    .app_header > form {
+        width: 60%;
+    }    
+}
+
+@media screen and (max-width : 750px) {
+    .app_header > form {
+        width: 90%;
+    } 
+}
+
+
+
+
