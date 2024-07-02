@@ -1,0 +1,44 @@
+.taskCard {
+    width: 90%;
+    min-height: 5rem;
+    border: 1px solid #dcdcdc;
+    border-radius: 0.7rem;
+    padding: 0.8rem 1.5rem;
+    margin: 1.2rem 0;
+}
+
+.tasktext {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 0.8rem;
+}
+
+.task_card_bottom_line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete_div{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.delete_div:hover{
+    background-color: #dcdcdc;
+}
+
+.delete_icon {
+    height: 1rem;
+    width: 1rem;
+    opacity: 70%;
+}
+
+.delete_div:hover .delete_icon{
+    opacity: 90%;
+}
